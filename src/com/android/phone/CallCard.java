@@ -267,7 +267,7 @@ public class CallCard extends FrameLayout
 
                 callCardBackgroundResid =
                         landscapeMode ? R.drawable.incall_frame_connected_tall_land
-                        : R.drawable.incall_frame_connected_tall_port;
+                        : R.drawable.incall_frame_connected_tall_land;
 
                 // update timer field
                 if (DBG) log("displayMainCallStatus: start periodicUpdateTimer");
@@ -282,7 +282,7 @@ public class CallCard extends FrameLayout
 
                 callCardBackgroundResid =
                         landscapeMode ? R.drawable.incall_frame_hold_tall_land
-                        : R.drawable.incall_frame_hold_tall_port;
+                        : R.drawable.incall_frame_hold_tall_land;
 
                 // update timer field
                 mCallTime.cancelTimer();
@@ -295,7 +295,7 @@ public class CallCard extends FrameLayout
 
                 callCardBackgroundResid =
                         landscapeMode ? R.drawable.incall_frame_ended_tall_land
-                        : R.drawable.incall_frame_ended_tall_port;
+                        : R.drawable.incall_frame_ended_tall_land;
 
                 // Stop getting timer ticks from this call
                 mCallTime.cancelTimer();
@@ -308,7 +308,7 @@ public class CallCard extends FrameLayout
 
                 callCardBackgroundResid =
                         landscapeMode ? R.drawable.incall_frame_normal_tall_land
-                        : R.drawable.incall_frame_normal_tall_port;
+                        : R.drawable.incall_frame_normal_tall_land;
 
                 // Stop getting timer ticks from a previous call
                 mCallTime.cancelTimer();
@@ -321,7 +321,7 @@ public class CallCard extends FrameLayout
 
                 callCardBackgroundResid =
                         landscapeMode ? R.drawable.incall_frame_normal_tall_land
-                        : R.drawable.incall_frame_normal_tall_port;
+                        : R.drawable.incall_frame_normal_tall_land;
 
                 // Stop getting timer ticks from a previous call
                 mCallTime.cancelTimer();

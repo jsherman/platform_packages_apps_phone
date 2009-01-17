@@ -44,8 +44,8 @@ public class ButtonGridLayout extends ViewGroup {
         final View child0 = getChildAt(0);
         final int yInc = (getHeight() - mPaddingTop - mPaddingBottom) / rows;
         final int xInc = (getWidth() - mPaddingLeft - mPaddingRight) / mColumns;
-        final int childWidth = child0.getMeasuredWidth();
-        final int childHeight = child0.getMeasuredHeight();
+        final int childWidth = child0.getMeasuredWidth() * 2/3;
+        final int childHeight = child0.getMeasuredHeight() * 2/3;
         final int xOffset = (xInc - childWidth) / 2;
         final int yOffset = (yInc - childHeight) / 2;
         

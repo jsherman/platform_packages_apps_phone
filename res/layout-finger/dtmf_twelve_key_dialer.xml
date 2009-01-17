@@ -35,6 +35,7 @@
         android:id="@id/dialer_tab"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
         android:src="@drawable/ic_dialpad_tray"
         android:background="@drawable/tray_handle_normal"/>
 
@@ -51,16 +52,16 @@
         <!-- Number Display Field, padded for correct text alignment -->
         <EditText android:id="@+id/dtmfDialerField"
             android:layout_width="fill_parent"
-            android:layout_height="66px"
-            android:layout_marginTop="14px"
-            android:layout_marginBottom="5px"
+            android:layout_height="40px"
+            android:layout_marginTop="2px"
+            android:layout_marginBottom="2px"
             android:layout_marginLeft="3px"
             android:layout_marginRight="3px"
             android:paddingRight="16px"
             android:paddingLeft="16px"
             android:maxLines="1"
             android:scrollHorizontally="true"
-            android:textSize="28sp"
+            android:textSize="24dip"
             android:freezesText="true"
             android:background="@drawable/btn_dial_textfield_normal_full"
             android:textColor="@color/dtmf_dialer_display_text"
